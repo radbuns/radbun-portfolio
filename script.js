@@ -96,10 +96,10 @@ function getContent(name) {
         <h3>EXPERIENCE</h3>
         <div class="bullet">
         <ul>
+        <li>Graphic Designer</li>
+        <li>Video Editor</li>
         <li>Talent Manager</li>
         <li>Social Media Manager</li>
-        <li>Video Editor</li>
-        <li>Graphic Designer</li>
         <li>Article Writer</li>
         </ul>
       </section>
