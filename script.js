@@ -214,6 +214,11 @@ function getContent(name) {
       <i class="fab fa-linkedin"></i>
 
     </a>
+        <a href="https://github.com/radbuns"
+       target="_blank">
+      <i class="fab fa-github"></i>
+
+    </a>
 
   </div>
 `,
