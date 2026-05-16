@@ -76,7 +76,7 @@ function getContent(name) {
   <div class="about-wrapper">
 
     <div class="about-profile">
-      <img src="assets/profile.png" alt="profile">
+      <img src="Assets/Profile.png" alt="profile">
 
       <div class="about-intro">
         <h2>Radhit Rabbani</h2>
