@@ -297,3 +297,24 @@ function bringToFront(win) {
   topZ++;
   win.style.zIndex = topZ;
 }
+
+/* ================= MUSIC TOGGLE ================= */
+
+const mascot =
+  document.getElementById("musicToggle");
+
+const music =
+  document.getElementById("bgMusic");
+
+let isPlaying = false;
+
+mascot.addEventListener("click", () => {
+
+  if(isPlaying){
+    Music.pause();
+  } else {
+    Music.play();
+  }
+
+  isPlaying = !isPlaying;
+});
