@@ -299,6 +299,13 @@ function bringToFront(win) {
 }
 
 /* ================= MUSIC TOGGLE ================= */
+const mascot =
+  document.getElementById("musicToggle");
+
+const music =
+  document.getElementById("bgMusic");
+
+let isPlaying = false;
 
 mascot.addEventListener("click", async () => {
 
