@@ -600,4 +600,9 @@ border-top: 1px solid rgba(255,255,255,.08);
   letter-spacing:.5px;
 }
 
+.mascot.active{
+  filter:
+    drop-shadow(0 0 12px var(--accent));
 
+  transform: scale(1.05);
+}
