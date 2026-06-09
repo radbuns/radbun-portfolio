@@ -300,20 +300,18 @@ function bringToFront(win) {
 
 /* ================= MUSIC TOGGLE ================= */
 
-const mascot =
-  document.getElementById("musicToggle");
-
-const music =
-  document.getElementById("bgMusic");
-
-let isPlaying = false;
-
-mascot.addEventListener("click", () => {
+mascot.addEventListener("click", async () => {
 
   if(isPlaying){
     music.pause();
   } else {
-    music.play();
+
+    try{
+      await music.play();
+    } catch(err){
+      console.log(err);
+    }
+
   }
 
   isPlaying = !isPlaying;
