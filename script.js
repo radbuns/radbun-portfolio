@@ -116,11 +116,11 @@ function getContent(name) {
         <h3>INTERESTS</h3>
     <div class="bullet">
         <ul>
-          <li>Writings</li>
           <li>Arts! Pixels, Digitals, 3D</li>
           <li>Video Games</li>
-          <li>Music Composition</li>
-          <li>Knights</li>
+          <li>Writings</li>
+          <li>Music</li>
+          <li>Fantasy</li>
         </ul>
     </div>
       </section>
