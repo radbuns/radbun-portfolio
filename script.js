@@ -311,10 +311,12 @@ let isPlaying = false;
 mascot.addEventListener("click", () => {
 
   if(isPlaying){
-    Music.pause();
+    music.pause();
   } else {
-    Music.play();
+    music.play();
   }
 
   isPlaying = !isPlaying;
+
+  mascot.classList.toggle("active");
 });
